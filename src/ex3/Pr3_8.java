@@ -2,9 +2,9 @@ package ex3;
 
 public class Pr3_8 {
     public static void main(String[] args) {
-        byte a = 10;
-        byte b = 20;
-        byte c = (byte)(a + b);
+        int a = 10;
+        int b = 20;
+        byte c = (byte)(byte)(a + b);
 
         char ch = 'A';
         ch = (char)(ch + 2);
@@ -14,6 +14,7 @@ public class Pr3_8 {
 
         float f2 = 0.1f;
         double d = 0.1;
+
 
         boolean result = (float)d == f2;
 
