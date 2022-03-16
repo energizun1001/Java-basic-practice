@@ -1,6 +1,5 @@
 package ex7;
 
-
 public class Pr7_1 {
     static private class SutdaDeck{
         final int CARD_NUM = 20;
